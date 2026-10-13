@@ -1,0 +1,16 @@
+{
+  "name": "zcode-markdown-studio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ZCode-inspired WYSIWYG Markdown experience for Obsidian Live Preview, unofficial.",
+  "main": "main.js",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/main.js && npm test && npm run build"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

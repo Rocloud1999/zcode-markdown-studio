@@ -1,0 +1,17 @@
+ZCode Markdown Studio v0.1.0 — 非官方 Obsidian 插件
+
+本插件不需要 npm，也不需要联网安装依赖。
+
+1. 解压安装包，得到文件夹 zcode-markdown-studio。
+2. 把整个文件夹复制到：你的知识库/.obsidian/plugins/
+3. 结果应是：你的知识库/.obsidian/plugins/zcode-markdown-studio/main.js
+   同一文件夹里还应有 manifest.json 和 styles.css。
+4. 重启 Obsidian。在 设置 → 第三方插件 中允许社区插件并启用 ZCode Markdown Studio。
+5. 设置 → 编辑器 → 默认编辑模式 → 实时预览（Live Preview）。
+6. 进入 Markdown 笔记，选中文字试用浮动工具栏；在空白行输入 / 打开插入菜单。
+
+提醒：
+- 建议先用测试知识库安装，并做好笔记备份。
+- 插件禁用后不修改你的 Markdown 内容；设置可自定义宽度/密度。
+- 插件未经真实 Obsidian GUI 集成测试；已通过 Node 单测与 CSS 解析。
+- 非 ZCode / Z.ai 官方插件。

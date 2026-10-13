@@ -1,0 +1,9 @@
+{
+  "id": "zcode-markdown-studio",
+  "name": "ZCode Markdown Studio",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "A calm, dense Markdown editing theme with selection toolbar and slash commands, inspired by ZCode.",
+  "author": "Independent contributors",
+  "isDesktopOnly": false
+}
