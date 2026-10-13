@@ -6,9 +6,9 @@
 
 ## 立即安装（无需 Node.js）
 
-1. 下载 `zcode-markdown-studio-install.zip`，解压得到 `zcode-markdown-studio/` 文件夹（包括 `main.js`、`manifest.json`、`styles.css`）。
-2. 找到你的库目录，进入 `<Vault>/.obsidian/plugins/`（如果 `plugins` 不存在，先建立）。
-3. 将整个 `zcode-markdown-studio/` 文件夹复制进去，得到：
+1. 在本仓库点击 **Code → Download ZIP**，解压项目源码（也可以执行 `git clone https://github.com/Rocloud1999/zcode-markdown-studio.git`）。
+2. 找到你的 Obsidian 库目录，进入 `<Vault>/.obsidian/plugins/`（如果 `plugins` 不存在，先建立），在里面创建 `zcode-markdown-studio/` 文件夹。
+3. 从下载的项目根目录复制 **`manifest.json`、`main.js`、`styles.css`** 三个文件到该插件文件夹，得到：
 
    ```text
    <Vault>/.obsidian/plugins/zcode-markdown-studio/
